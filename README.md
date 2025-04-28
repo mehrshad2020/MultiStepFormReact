@@ -1,7 +1,8 @@
 # فرم چند مرحله‌ای با React | Multi-Step Form with React
 
 <div dir="rtl" align="right">
-![image](https://github.com/user-attachments/assets/6da777c0-ceb5-4c9d-9082-f9aa72f9d97a)
+
+![MultiStepForm1](https://github.com/user-attachments/assets/28b3ded6-b6f9-43fd-8087-bdf9f8531e03)
 
 
 ## توضیحات
