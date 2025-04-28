@@ -1,0 +1,206 @@
+/* Font is imported in index.css */
+
+.form-container {
+  font-family: 'Vazirmatn', sans-serif !important;
+  width: 500px !important;
+  margin: 0 auto;
+  padding: 12px 10px 16px 10px;
+  border-radius: 12px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  background-color: #f9f9f9;
+  direction: rtl;
+  text-align: right;
+}
+
+.form-title {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #333;
+  font-size: 24px;
+}
+
+.form-input {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 15px;
+  border: 1px solid #a0d8a0;
+  border-radius: 6px;
+  font-family: 'Vazirmatn';
+  transition: border-color 0.3s, background-color 0.3s;
+  background-color: #f0f8f0;
+}
+
+.form-input:focus {
+  border-color: #4caf50;
+  outline: none;
+  background-color: #e0f0e0;
+}
+
+.form-message {
+  text-align: center;
+  color: #333;
+  font-size: 18px;
+}
+
+.button-container {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.prev-button {
+  padding: 12px 24px;
+  background: linear-gradient(to right, #f0f0f0, #e0e0e0);
+  color: #333;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.prev-button:hover {
+  background: linear-gradient(to right, #e0e0e0, #d0d0d0);
+}
+
+.next-button {
+  padding: 12px 24px;
+  background: linear-gradient(to right, #646cff, #535bf2);
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.next-button:hover {
+  background: linear-gradient(to right, #535bf2, #434cff);
+}
+
+.stepper-style {
+  border: 1px solid #eee;
+  background: #fff;
+  border-radius: 14px;
+  padding: 32px 24px 24px 24px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.04);
+}
+
+.stepper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 32px;
+}
+
+.step-circle {
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  background: #fff;
+  border: 3px solid #bbb;
+  color: #bbb;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  font-size: 1.2em;
+  transition: border-color 0.3s, color 0.3s;
+}
+.step-circle.active {
+  border-color: #ff33a6;
+  color: #ff33a6;
+}
+
+.step-line {
+  flex: 1;
+  height: 3px;
+  background: #bbb;
+  margin: 0 8px;
+  border-radius: 2px;
+}
+
+.form-content {
+  margin-bottom: 24px;
+}
+
+.form-desc {
+  margin-bottom: 12px;
+  color: #333;
+  font-size: 1.1em;
+}
+
+.form-label {
+  display: block;
+  margin-bottom: 8px;
+  color: #444;
+  font-size: 1em;
+  text-align: right;
+}
+
+.required {
+  color: #ff33a6;
+  margin-right: 2px;
+  margin-left: 0;
+}
+
+.form-input.modern {
+  width: 80%;
+  box-sizing: border-box;
+  padding: 9px 12px;
+  margin: 6px auto 0 auto;
+  border: 1.5px solid #ccc;
+  border-radius: 8px;
+  font-family: 'Vazirmatn';
+  font-size: 1em;
+  background: #fff;
+  transition: border-color 0.3s, box-shadow 0.3s;
+  display: block;
+  text-align: right;
+}
+.form-input.modern:focus {
+  border-color: #ff33a6;
+  box-shadow: 0 0 0 2px #ffe0f2;
+  outline: none;
+}
+
+.form-input.modern::placeholder {
+  color: #bbb;
+  opacity: 1;
+}
+
+.button-container.stepper-btns {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row-reverse;
+  gap: 10px;
+}
+
+.stepper-btn {
+  width: 100%;
+  padding: 10px 0;
+  border: none;
+  border-radius: 8px;
+  font-size: 1.1em;
+  font-family: 'Vazirmatn';
+  font-weight: bold;
+  background: #ff33a6;
+  color: #fff;
+  cursor: pointer;
+  transition: background 0.2s, box-shadow 0.2s;
+  box-shadow: 0 2px 8px rgba(255,51,166,0.08);
+}
+.stepper-btn:hover {
+  background: #e6007a;
+}
+.stepper-btn.prev {
+  background: #eee;
+  color: #444;
+}
+.stepper-btn.prev:hover {
+  background: #ddd;
+}
+.stepper-btn.submit {
+  background: #43d477;
+}
+.stepper-btn.submit:hover {
+  background: #2eae5c;
+} 
